@@ -1,0 +1,247 @@
+.page-title {
+    background-color: #F7B32B;
+    color: #F21B3F;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;   
+    -webkit-text-stroke: 0.75px black; 
+}
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #F21B3F;
+    color: #F7B32B;
+    -webkit-text-stroke: 0.1px black; 
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #29BF12;
+    padding: 5%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5%;
+    box-shadow: #F7B32B 0px 5px 15px;
+}
+input {
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: black;
+}
+textarea {
+    max-width: 20rem; 
+    max-height: 15rem;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.pdf-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%; */
+    padding: 2.5%;
+}
+.center-pdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pdf-header {
+    background-color: #08BDBD;
+    color:  rgb(238, 238, 238);
+    width: 100%;
+
+}
+.pdf-content-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.pdf-title {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: #08BDBD;
+    -webkit-text-stroke: 0px black; 
+}
+img {
+    display: block;
+    width: 100%;
+}
+.pdf-title-container {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fullName {
+    margin-bottom: 2.5px;
+}
+.jobTitle {
+    margin-top: 2.5px;
+}
+.pdf-description, .job-description {
+   font-style: italic;
+   -webkit-text-stroke: 0px black; 
+   color: black;
+}
+.personal-title, .skills-personal-title {
+    margin-bottom: 5px;
+    color: #1D3557;
+}
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 5%;
+}
+.edu-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-top: 5%;
+}
+.date-container, .job-position {
+    color: #F21B3F; 
+    font-size: 1.3rem;
+}
+.information-container {
+    margin-right: 5%;
+}
+.personal-container {
+    background-color: rgb(221, 221, 221);
+    padding: 25px;
+}
+.letter-spacing {
+    letter-spacing: 1px;
+    color: #F21B3F; 
+    font-weight: bold;
+}
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: flex;
+    gap: 5%;
+}
+.button-style {
+    background-color: #F21B3F;
+    border-style: none;
+    border-radius: 25% 0 25% 0;
+    padding: 0.75rem;
+    font-weight: bolder;
+    color: white;
+    width: 100%;
+}
+.delete-btn-style:hover, .upper-button-style:hover, .button-style:hover {
+    cursor: pointer;
+}
+
+.delete-btn-style {
+    background-color: #F7B32B;
+    border-style: none;
+    border-radius: 25% 0 25% 0;
+    padding: 0.25rem;
+    font-weight: bolder;
+    width: 50%;
+    color: #F21B3F;
+}
+.delete-btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+.add-btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.upper-btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 10%;
+    width: 100%;
+}
+.upper-button-style {
+    background-color: #533A71;
+    color: #08BDBD;
+    border-style: none;
+    border-radius: 25% 0 25% 0;
+    padding: 0.75rem;
+    font-weight: bolder;
+    width: 100%;
+    font-size: 1.5rem;
+}
+li {
+    color:#F21B3F;
+}
+.job-title-date-container {
+    display: flex;
+    gap: 20%;
+    margin-bottom: -5%;
+}
+.skill-bullet {
+    margin: 5%;
+    margin-left: 0;
+    font-weight: bold;
+}
+.job-company, .degree-title {
+    color: #1D3557;
+    font-weight: bolder;
+}
+.last-flex {
+    background-color: #F7B32B; 
+    color: #F21B3F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px; 
+    font-size: 20px;
+    padding: 1.5%;
+    padding-bottom: 1%;;
+}
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+.icon-container {
+    display: flex;
+    padding-left: 24px; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
