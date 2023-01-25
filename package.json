@@ -1,7 +1,7 @@
 {
   "name": "cv-project",
   "version": "0.1.0",
-  "homepage": "http://luisfernandovillalon.github.io/business-card-form-top",
+  "homepage": "http://luisfernandovillalon.github.io/business-card-form-TOP",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
