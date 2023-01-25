@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/business-card-form-top/static/css/main.f19a589a.css",
+    "main.js": "/business-card-form-top/static/js/main.ec8eea6d.js",
+    "static/media/example_photo.png": "/business-card-form-top/static/media/example_photo.5818cb781028efdf0938.png",
+    "static/media/empty_avatar.png": "/business-card-form-top/static/media/empty_avatar.cedf234c0ac4761153d5.png",
+    "index.html": "/business-card-form-top/index.html",
+    "main.f19a589a.css.map": "/business-card-form-top/static/css/main.f19a589a.css.map",
+    "main.ec8eea6d.js.map": "/business-card-form-top/static/js/main.ec8eea6d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f19a589a.css",
+    "static/js/main.ec8eea6d.js"
+  ]
+}
