@@ -14,5 +14,4 @@ HTML, CSS, JavaScript, npm, React, GitHub, components
 
 # Video Recording
 
-
-[label](../../../Downloads/screen-capture.webm)
+[screen-capture (3).webm](https://user-images.githubusercontent.com/104875261/234382666-c0913761-fda6-49f7-b2b0-6e3395a235eb.webm)
